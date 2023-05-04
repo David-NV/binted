@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("/images/img_fond.jpg");
+    background-size: contain;
+    /* background-position:top left ; */
+    background-repeat: no-repeat;
+
+}
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    height:40px;
+    padding: 5px 5px 5px 30px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+.header_img{
+    height: 30px;
+}
+.header_search{
+    display: flex;
+    margin: 5px 20px 5px 20px;
+    background: rgb(242,242,242);
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 50%;
+}
+.header_search_category{
+    background: rgb(242,242,242);
+    border: none;
+    margin-right: 5px;
+    color: rgb(104, 104, 104);
+
+}
+.header_search_img{
+    border-left: 1px solid lightgray;
+}
+
+.header_search_input{
+    background: rgb(242,242,242);
+    border: 0px;
+    border-radius: 0px 5px 5px 0px;
+    width: 80%;
+}
+.lien{
+    border: 1px solid rgb(0,119,130);
+    border-radius: 3px;
+    background: rgb(0,119,130);
+    color: white;
+    padding: 5px;
+    margin: 3px;
+    text-decoration: none;
+    text-align: center;
+}
+.entete{
+    font-size: 0.8em;
+}
+.blanc{
+    background: white;
+    color: rgb(0,119,130);
+}
+.header_search_language{
+    color: rgb(104, 104, 104);
+    border: none;
+}
+
+nav{
+    padding-left:10%;
+    padding-top: 8px;
+    background: white;
+    border-top: 1px solid rgb(240, 240, 240);
+    height: 30px;
+
+}
+.nav_lien{
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+    font-size: .8em;
+    padding: 10px;
+}
+.nav_lien:hover{
+    background: rgb(240, 240, 240);
+}
+.accueil{
+    height: 100%;
+}
+.accueil_div{
+    background: white;
+    border-radius: 3px;
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 5% 5% 50% 5%;
+}
+.accueil_div_heading{
+    font-size: 2.5em;
+    width: 70%;
+    padding-bottom: 20px;
+}
+.accueil_link{
+    padding: 10px;
+}
+.accueil_link_help{
+    color: rgb(0,119,130);
+    font-size: .8em;
+    padding: 5px;
+}
